@@ -1,3 +1,5 @@
+This project is based on [claude-chat-to-md](https://github.com/luckynick/claude-chat-to-md).
+
 # claude-chat-to-md
 
 Convert [Claude Code](https://docs.anthropic.com/en/docs/claude-code) chat sessions to clean, readable Markdown — including subagent conversations.
