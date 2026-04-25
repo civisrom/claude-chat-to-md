@@ -11,17 +11,17 @@ Claude Code persists full chat history as JSONL files under `~/.claude/projects/
 Install straight from GitHub with `pipx` (recommended) or `pip`:
 
 ```bash
-pipx install git+https://github.com/luckynick/claude-chat-to-md.git
+pipx install git+https://github.com/civisrom/claude-chat-to-md.git
 ```
 
 ```bash
-pip install git+https://github.com/luckynick/claude-chat-to-md.git
+pip install git+https://github.com/civisrom/claude-chat-to-md.git
 ```
 
 Or from a clone for development:
 
 ```bash
-git clone https://github.com/luckynick/claude-chat-to-md.git
+git clone https://github.com/civisrom/claude-chat-to-md.git
 cd claude-chat-to-md
 pip install -e .
 ```
@@ -29,7 +29,7 @@ pip install -e .
 To upgrade later:
 
 ```bash
-pip install --upgrade git+https://github.com/luckynick/claude-chat-to-md.git
+pip install --upgrade git+https://github.com/civisrom/claude-chat-to-md.git
 ```
 
 ## Usage
