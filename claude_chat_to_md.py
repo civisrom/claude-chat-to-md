@@ -31,7 +31,7 @@ import difflib
 import json
 import re
 import sys
-from dataclasses import dataclass, field
+from dataclasses import dataclass
 from datetime import datetime
 from pathlib import Path
 from typing import TextIO
@@ -711,7 +711,12 @@ def main() -> None:
     sessions = discover_sessions()
 
     if args.project:
-        sessions = [s for s in sessions if args.project.lower() in s.project_path.lower()]
+        needle = args.project.lower()
+        sessions = [
+            s
+            for s in sessions
+            if needle in s.display_project.lower() or needle in s.project_path.lower()
+        ]
 
     if args.list:
         list_sessions(sessions)
