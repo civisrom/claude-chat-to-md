@@ -175,7 +175,7 @@ chat-fzf() {
 }
 
 # Upgrade the installed package from GitHub
-alias chat-update='/root/skripts/bin/pip install --upgrade git+https://github.com/luckynick/claude-chat-to-md.git'
+alias chat-update='/root/skripts/bin/pip install --upgrade git+https://github.com/civisrom/claude-chat-to-md.git'
 
 # Clean up old exports: keep only the 20 most recent .md files in ~/chats/
 chat-clean() {
@@ -203,7 +203,7 @@ chat-clean() {
 | `chat-project-latest <name> [file]` | Save latest session of a specific project |
 | `chat-find <text>` | Grep `chat-list` output by title with colored matches |
 | `chat-fzf` | Interactive session picker via `fzf` → view in `less` |
-| `chat-update` | `pip install --upgrade git+https://github.com/luckynick/claude-chat-to-md.git` |
+| `chat-update` | `pip install --upgrade git+https://github.com/civisrom/claude-chat-to-md.git` |
 | `chat-clean [dir]` | Keep only the 20 most recent `.md` exports (default `~/chats/`) |
 
 Reload the config after adding the block:
